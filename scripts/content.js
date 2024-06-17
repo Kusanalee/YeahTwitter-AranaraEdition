@@ -28,7 +28,7 @@ setTimeout(async () => {
             let modal = createModal(/*html*/`
                 <h2 style="margin-top:0">
                     <img src="${chrome.runtime.getURL('images/yeah_on32.png')}" alt="Yeah!" style="width: 24px; height: 24px;margin-bottom: -4px;">
-                    Welcome to Yeah! for Twitter extension!
+                    Welcome to Yeah! for Twitter extension! (the aranara edition!)
                 </h2>
                 <p>This extension adds a <b>Yeah!</b> button to all tweets, which is essentially same thing as a Like but public to everyone. Everyone can see who Yeahed a tweet, and everyone can see all your Yeahs on your profile.</p>
                 <p>It doesn't send a spammy reply with an image, instead it saves your Yeahs into a shared database.</p>
@@ -37,6 +37,8 @@ setTimeout(async () => {
                     Click button below, and we'll automatically post a tweet on your behalf that will look like 'yeah-xxxxxxxx'.
                     Then our server will check for that tweet existence, confirm that it's you, and extension will automatically remove the tweet and save your token.
                     This tweet should be only up for about a second, so don't worry about posting nonsensical tweet.
+
+                    Original by @d1mden, just forked for the aranaras.
                 </p>
                 <p>
                     <b>Important: your account must not be private so server can actually see the tweet. You'll need to make your account public for this auth, afterwards you can make it private again.</b>
@@ -91,11 +93,11 @@ setTimeout(async () => {
                         let modal2 = createModal(/*html*/`
                             <h2 style="margin-top:0">
                                 <img src="${chrome.runtime.getURL('images/yeah_on32.png')}" alt="Yeah!" style="width: 24px; height: 24px;margin-bottom: -4px;">
-                                Authentification successful!
+                                Authentication successful! Thank you, Nara!
                             </h2>
-                            <p>You can now Yeah! on any tweet. Yeah!!!!!</p>
+                            <p>You can now Yeah! on any tweet.</p>
                             <div>
-                                btw I (<a href="/d1mden" target="_blank" style="text-decoration:none;color:#1d9bf0">@d1mden</a>) make a lot of cool extensions for Twitter like this, maybe u wanna follow me?
+                                btw I (<a href="/d1mden" target="_blank" style="text-decoration:none;color:#1d9bf0">@d1mden</a>) make a lot of cool extensions for Twitter like this, maybe u wanna follow me? - do check them out!
                             </div>
                             <div style="margin-top: 10px;"><button class="follow-button nice-yeah-button">Yeah! (Follow)</button></div>
                         `, 'authentification-successful', () => {}, () => Date.now() - modalOpenTime > 1500);
