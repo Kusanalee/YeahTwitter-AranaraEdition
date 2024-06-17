@@ -1,9 +1,9 @@
 {
-  "name": "Yeah! for Twitter",
-  "description": "Adds a Yeah! button to Twitter",
+  "name": "Yeah! for Twitter - aranara edition",
+  "description": "Adds a Yeah! button to Twitter - but with Arama this time for those naras who want it!",
   "version": "1.0.7",
   "manifest_version": 3,
-  "homepage_url": "https://github.com/dimdenGD/YeahTwitter",
+  "homepage_url": "https://github.com/Kusanalee/YeahTwitter-AranaraEdition",
   "permissions": [
     "storage"
   ],
