@@ -1,4 +1,7 @@
-# Yeah! for Twitter
+# Yeah! for Twitter - aranara edition
+
+Just a mostly lazy rebranding. all this does is replace the pictures with arama from genshin (ala aranara)
+
 Extension that adds a "Yeah!" button to Twitter. Essentially, it's a public Like button. It doesn't send spammy images into replies, instead it saves your Yeahs into a shared database. Everyone can see who Yeahed a tweet, and what tweets person Yeahed.  
 This extension supports both new Twitter and OldTwitter!  
 ![Screenshot](https://lune.dimden.dev/a602b6e6a2af.gif)  
