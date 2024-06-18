@@ -97,7 +97,7 @@ setTimeout(async () => {
                             </h2>
                             <p>You can now Yeah! on any tweet.</p>
                             <div>
-                                btw I (<a href="/d1mden" target="_blank" style="text-decoration:none;color:#1d9bf0">@d1mden</a>) make a lot of cool extensions for Twitter like this, maybe u wanna follow me? - do check them out!
+                                btw I (<a href="/d1mden" target="_blank" style="text-decoration:none;color:#1d9bf0">@d1mden</a>) make a lot of cool extensions for Twitter like this, maybe u wanna follow me? - do check them out! (p.s. this aranara extension was made by @Kusanaliee on Twitter so if you want to see aranara posting, you can follow me!)
                             </div>
                             <div style="margin-top: 10px;"><button class="follow-button nice-yeah-button">Yeah! (Follow)</button></div>
                         `, 'authentification-successful', () => {}, () => Date.now() - modalOpenTime > 1500);
